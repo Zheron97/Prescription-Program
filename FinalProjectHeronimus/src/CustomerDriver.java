@@ -103,7 +103,7 @@ public class CustomerDriver {
 					 **/
 				} catch (NumberFormatException ex) {
 					JOptionPane.showMessageDialog(null,
-							"Customer not added.\n" + "Quantity & Dosage must be number values.");
+							"Customer not added.\n" + "Quantity & Dosage must be number values.", "An error has occurred", 0);
 				}
 			}
 		});
