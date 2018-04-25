@@ -56,7 +56,7 @@ public class CustomerDriver {
 						if (customer.getDeaNumber().length() != 9) {
 							JOptionPane.showMessageDialog(null,
 									"Customer not added.\n" + "DEA number length must be equal to nine characters.",
-									"An Error Occurred", 0);
+									"An error has occurred", 0);
 						}
 
 						/**
@@ -68,7 +68,7 @@ public class CustomerDriver {
 							JOptionPane.showMessageDialog(null,
 									"Customer not added.\n"
 											+ "First & last name fields must be an alphabetic character.",
-									"An Error Occurred", 0);
+									"An error has occurred", 0);
 						}
 
 						/**
@@ -103,7 +103,8 @@ public class CustomerDriver {
 					 **/
 				} catch (NumberFormatException ex) {
 					JOptionPane.showMessageDialog(null,
-							"Customer not added.\n" + "Quantity & Dosage must be number values.", "An error has occurred", 0);
+							"Customer not added.\n" + "Quantity & Dosage must be number values.", 
+							"An error has occurred", 0);
 				}
 			}
 		});
